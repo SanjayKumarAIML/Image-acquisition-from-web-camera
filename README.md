@@ -1,13 +1,12 @@
 # Image-Acquisition-from-Web-Camera
-## Aim
+## Aim:
  
-Aim:
  
-To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
-i) Write the frame as JPG 
-ii) Display the video 
-iii) Display the video by resizing the window
-iv) Rotate and display the video
+To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.<br>
+i) Write the frame as JPG. <br>
+ii) Display the video. <br>
+iii) Display the video by resizing the window. <br>
+iv) Rotate and display the video. <br>
 
 ## Software Used:
 Anaconda - Python 3.7
@@ -17,7 +16,7 @@ Import cv2 and capture the video using cv2.VideoCapture(0).
 <br>
 
 ### Step 2:
- Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
+Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
 <br>
 
 ### Step 3:
@@ -33,7 +32,7 @@ Display the image until the key to close the window is pressed.
 <br>
 
 ## Program:
-``` Python
+
 ### Developed By:Sanjay Kumar S S
 ### Register No:212221240048
 
@@ -95,28 +94,28 @@ while True:
 obj.release()
 cv2.destroyAllWindows()
 ```
-## Output
+## Output:
 
-### i) Write the frame as JPG image
-</br>
+### i) Write the frame as JPG image;
+
 ![image](https://user-images.githubusercontent.com/93427246/226094126-c210aa81-5311-4236-9a99-526736cfde96.png)
 
-</br>
+
 ### ii) Display the video
-</br>
+
 ![image](https://user-images.githubusercontent.com/93427246/226094209-cece8718-f0e9-4023-8c89-f533bb5f88ba.png)
 
-</br>
+
 ### iii) Display the video by resizing the window
-</br>
+
 ![image](https://user-images.githubusercontent.com/93427246/226094275-2334b510-bca3-40f7-9250-c485b0a011b1.png)
 
 
-</br>
+
 ### iv) Rotate and display the video
-</br>
+
 ![image](https://user-images.githubusercontent.com/93427246/226094407-b36395d8-ab3f-4d78-8894-457366abca42.png)
 
-</br>
+
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
